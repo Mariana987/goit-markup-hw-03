@@ -70,6 +70,7 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 1px solid tomato;
 }
 .button {
   color: var(--secondary-text-color);
@@ -142,6 +143,8 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 .portfolio-button:focus,
 .portfolio-button:hover {
