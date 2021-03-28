@@ -23,9 +23,14 @@ img{
 
 /* Шапка сайта */
 .header {
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ECECEC;
+}
+.main-link {
   display: flex;
   align-items: center;
-  border: 1px solid #ECECEC;
 }
 
 .logo {
@@ -64,7 +69,7 @@ margin-right: 0;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding: 10px;
+  padding: 32px;
 }
 
 .nav-links:hover,
@@ -102,7 +107,8 @@ margin-right: 0;
 /*Герой */
 .hero {
    text-align: center;
-   padding-bottom: 94px;
+   padding-top: 200px;
+   padding-bottom: 200px;
 }
 
 .hero-title {
@@ -189,7 +195,7 @@ margin-right: 0;
   line-height: 1.9;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 .profession {
@@ -199,14 +205,20 @@ margin-right: 0;
   letter-spacing: 0.03em;
   text-align: center;
   margin: 0;
-  margin-bottom: 30px;
 }
 .border{
   border-radius: 0px 0px 4px 4px;
- border: 1px solid #EEEEEE;
+  border: 1px solid #EEEEEE;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Футер */
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .address {
   color:var(--secondary-text-color);
@@ -245,7 +257,7 @@ margin-right: 0;
 .portfolio-border{
   border: 1px solid #EEEEEE;
   border-top: transparent;
-  padding-top: 10px;
+  padding: 20px 24px 20px 24px;
 }
 .filtr{
   display: flex;
@@ -285,19 +297,14 @@ margin-right: 0;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
   margin-bottom: 4px;
+  margin-top: 0;
 }
 .portfolio-item {
   color:var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
-  margin-top: 0;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
+  margin: 0;
 }
 .portfolio-link {
   text-decoration: none;
