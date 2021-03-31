@@ -24,8 +24,6 @@ img{
 /* Шапка сайта */
 .header {
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   border-bottom: 1px solid #ECECEC;
 }
 .main-link {
@@ -70,6 +68,7 @@ margin-right: 0;
   line-height: 1.2;
   letter-spacing: 0.02em;
   padding: 32px;
+  display: inline-block
 }
 
 .nav-links:hover,
