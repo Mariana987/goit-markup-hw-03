@@ -67,7 +67,8 @@ margin-right: 0;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: inline-block
 }
 
